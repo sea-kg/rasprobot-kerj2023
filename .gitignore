@@ -1,5 +1,5 @@
 # Prerequisites
-*.d
+# *.d
 
 # Compiled Object files
 *.slo
@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+
+.wsjcpp
+tmp
+
+firmware/rasprobot-kerj2023

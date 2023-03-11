@@ -1,0 +1,36 @@
+name: "firmware"
+version: "v0.0.1"
+cmake_minimum_required: "3.0"
+cmake_cxx_standard: "11"
+description: "rasprobot-kerj2023"
+authors:
+  - name: "Evgenii Sopov"
+    email: "mrseakg@gmail.com"
+origins:
+  - address: "https://sea-kg.com/wsjcpp-package-registry/"
+    type: "package-registry"
+keywords:
+  - "c++"
+
+dependencies:
+  - name: "wsjcpp-core"
+    version: "v0.2.3"
+    url: "https://github.com/wsjcpp/wsjcpp-core:master"
+    origin: "https://github.com/"
+    installation-dir: "./src.wsjcpp/wsjcpp_core"
+    installation-datetime: "Sat, 11 Mar 2023 07:00:45 GMT"
+
+  - name: "nlohmann/json"
+    version: "v3.11.2"
+    url: "https://github.com/nlohmann/json:develop"
+    origin: "https://github.com/"
+    installation-dir: "./src.wsjcpp/nlohmann_json"
+    installation-datetime: "Sat, 11 Mar 2023 07:01:06 GMT"
+
+  - name: "wsjcpp-yaml"
+    version: "v0.1.7"
+    url: "https://github.com/wsjcpp/wsjcpp-yaml:master"
+    origin: "https://github.com/"
+    installation-dir: "./src.wsjcpp/wsjcpp_yaml"
+    installation-datetime: "Sat, 11 Mar 2023 07:01:16 GMT"
+
