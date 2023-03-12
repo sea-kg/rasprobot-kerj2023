@@ -13,9 +13,12 @@
 https://thedatafrog.com/en/articles/raspberry-pi-zero-headless-install/
 
 
+Configure wifi
+
 
 http://wiki.amperka.ru/rpi:raspberry-pi-zero
 
 
 http://wiki.amperka.ru/articles:write-rpi-sd
+
 

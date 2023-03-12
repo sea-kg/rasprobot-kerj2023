@@ -10,8 +10,12 @@ set(EXECUTABLE_OUTPUT_PATH ${${target}_SOURCE_DIR})
 
 # include header dirs
 list (APPEND WSJCPP_INCLUDE_DIRS "src")
+list (APPEND WSJCPP_INCLUDE_DIRS "include")
 
 list (APPEND WSJCPP_SOURCES "src/main.cpp")
+list (APPEND WSJCPP_SOURCES "src/controlserver.cpp")
+list (APPEND WSJCPP_SOURCES "src/gpiopin.cpp")
+
 
 #### BEGIN_WSJCPP_APPEND
 #### END_WSJCPP_APPEND

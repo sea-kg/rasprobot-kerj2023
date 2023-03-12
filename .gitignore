@@ -33,6 +33,8 @@
 
 
 .wsjcpp
+.logs
 tmp
 
 firmware/rasprobot-kerj2023
+firmware2/
